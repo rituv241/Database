@@ -1,0 +1,13 @@
+CREATE TABLE `astro_background` (
+  `SERIAL_NO` int(11) DEFAULT NULL,
+  `PROFILE_ID` int(11) DEFAULT NULL,
+  `D_O_B` varchar(45) DEFAULT NULL,
+  `BIRTH_TIME` varchar(45) DEFAULT NULL,
+  `BIRTH_PLACE` varchar(45) DEFAULT NULL,
+  `RASHI` varchar(45) DEFAULT NULL,
+  `NADI` varchar(45) DEFAULT NULL,
+  `MANGLIK` varchar(45) DEFAULT NULL,
+  `GOTRA` varchar(45) DEFAULT NULL,
+  `DEVAK` varchar(45) DEFAULT NULL,
+  `GAAN` varchar(45) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
